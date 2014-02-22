@@ -14,4 +14,5 @@ public interface UsuarioDAO {
 	public void creaUsuario(Usuario usuario);
 
 	public List<Usuario> buscaPorNombre(String nombre);
+	
 }
